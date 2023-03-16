@@ -26,7 +26,7 @@ export default class CartTotals extends Component {
                       clearCart();
                     }}
                   >
-                    clear cart
+                    your cart is currently empty
                   </button>
                 </Link>
                 <h5>
