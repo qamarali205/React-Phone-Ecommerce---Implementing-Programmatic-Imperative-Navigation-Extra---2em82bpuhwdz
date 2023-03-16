@@ -34,7 +34,7 @@ export default class CartItem extends Component {
               >
                 -
               </span>
-              <span className="btn btn-black mx-1 quantity-control">{count}</span>
+              <span className="btn btn-black mx-1">{count}</span>
               <span
                 className="btn btn-black mx-1"
                 onClick={() => {
