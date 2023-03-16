@@ -25,7 +25,7 @@ export default class CartItem extends Component {
         </div>
         <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0 ">
           <div className="d-flex justify-content-center">
-            <div className="quantity-control">
+            <div>
               <span
                 className="btn btn-black mx-1"
                 onClick={() => {
@@ -46,7 +46,7 @@ export default class CartItem extends Component {
             </div>
           </div>
         </div>
-        <div className="col-10 mx-auto col-lg-2 ">
+        <div className="col-10 mx-auto col-lg-2 quantity-control">
           <div className=" cart-icon" onClick={() => removeItem(id)}>
             <i className="fas fa-trash" />
           </div>
