@@ -22,7 +22,7 @@ export default class Store extends Component {
               </React.Fragment>
             );
           } else {
-            return <EmptyCart className="empty-cart-msg" />;
+            return <EmptyCart />;
           }
         }}
       </ProductConsumer>
