@@ -24,8 +24,8 @@ export default class CartItem extends Component {
           </strong>
         </div>
         <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0 ">
-          <div className="d-flex justify-content-center">
-            <div className="quantity-control">
+          <div className="d-flex justify-content-center quantity-control">
+            <div>
               <span
                 className="btn btn-black mx-1"
                 onClick={() => {
