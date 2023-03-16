@@ -34,7 +34,7 @@ export default class CartItem extends Component {
               >
                 -
               </button>
-              <button className="btn btn-black mx-1">{count}</button>
+              <button className="btn btn-black mx-1 quantity-control">{count}</button>
               <button
                 className="btn btn-black mx-1 quantity-control"
                 onClick={() => {
@@ -46,7 +46,7 @@ export default class CartItem extends Component {
             </div>
           </div>
         </div>
-        <div className="col-10 mx-auto col-lg-2 quantity-control">
+        <div className="col-10 mx-auto col-lg-2 remove">
           <div className=" cart-icon" onClick={() => removeItem(id)}>
             <i className="fas fa-trash" />
           </div>
